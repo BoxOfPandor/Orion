@@ -6,7 +6,8 @@
 ##
 
 C_FILES = main.c \
-		  stat.c
+		  stat.c \
+		  roll.c
 O_FILES = $(C_FILES:.c=.o)
 LIB 	= -I./include
 NAME	= orion
